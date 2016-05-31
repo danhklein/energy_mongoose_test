@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var Year = new Schema ({
-    year : String,
+    yearNum : String,
     states : [{type : Schema.Types.ObjectId, ref : 'states'}]
 });
 
