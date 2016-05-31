@@ -37,9 +37,7 @@ router.put('/year/:yearNum/state', function(req, res, next) {
           Year.findByIdAndUpdate(id, update, function(err, updatedYear) {
             if (err){res.json('error adding state to year')}
 
-            else {
-              res.json(updatedYear)
-            }
+            else { res.json(updatedYear) }
           })
         }
       })
