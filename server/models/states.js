@@ -1,10 +1,11 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
+var Mixed = mongoose.Schema.Types.Mixed;
 
 var State = new Schema({
     name : String,
     abbreviation: String,
-    producer : [{type : Schema.Types.mixed}]
+    producer : [{type : Mixed}]
 });
 
 

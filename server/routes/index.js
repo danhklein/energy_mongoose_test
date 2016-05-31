@@ -47,15 +47,15 @@ router.put('/year/:yearNum/state', function(req, res, next) {
 
 //list a users events
 
-router.get('/user/:userid/events', function(req, res, next) {
-    User.findByIdQ(req.params.id)
-    .populate('events')
-    .populate('comments')
-    .exec(function(err, user) {
-        if(err) {
-            res.send(err);
-        } else {
-            res.json(user.events);
-        }
-    });
-});
+// router.get('/user/:userid/events', function(req, res, next) {
+//     User.findByIdQ(req.params.id)
+//     .populate('events')
+//     .populate('comments')
+//     .exec(function(err, user) {
+//         if(err) {
+//             res.send(err);
+//         } else {
+//             res.json(user.events);
+//         }
+//     });
+// });

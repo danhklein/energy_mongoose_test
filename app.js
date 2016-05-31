@@ -11,7 +11,7 @@ var swig = require('swig');
 // *** routes *** //
 var routes = require('./server/routes/index.js');
 
-mongoose.connect('mongodb://localhost/next_test');
+mongoose.connect('mongodb://localhost/best_test');
 
 // *** express instance *** //
 var app = express();

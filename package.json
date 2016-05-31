@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/danhklein/energy_mongoose_test/issues"
   },
-  "homepage": "https://github.com/danhklein/energy_mongoose_test#readme"
+  "homepage": "https://github.com/danhklein/energy_mongoose_test#readme",
+  "dependencies": {
+    "mongoose-q": "^0.1.0"
+  }
 }
